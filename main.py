@@ -5,7 +5,6 @@ def twoSum(nums: List[int], target: int) -> List[int]:
     ## Do not use input() or print() in your function
     ## Inputs (nums, target) will given as arguments and the output as
     ## return value
-    flag = False
     for i in range(len(nums)-1):
         for j in range(i+1, len(nums)):
             if nums[i] == target-nums[j]:
